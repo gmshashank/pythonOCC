@@ -1,0 +1,12 @@
+name: pyoccenv
+channels:
+  - conda-forge
+  - defaults
+  - anaconda
+dependencies:
+  - python=3.9
+  - pythonocc-core=7.6.2
+  - pip
+  - pip:
+    - flask
+    - gunicorn
